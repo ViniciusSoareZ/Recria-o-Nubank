@@ -1,0 +1,422 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'Graphik' ;
+    src: url(fonts/GraphikRegular.otf) format('opentype') ;
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    font-family: 'Graphik', Arial, Helvetica, sans-serif;
+}
+header{
+    padding: 10px;
+}
+
+header > img{
+    width: 45px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 30px;
+}
+
+header a{
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 50px;
+    
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+
+#login{
+    margin-left: 930px;
+    color: #820AD1;
+}
+
+
+
+.conteiner1{
+    background-image: url(image/imagem1.png); 
+    background-repeat: no-repeat;
+    min-height: 896px;
+
+   
+
+    
+
+}
+.texto{
+    font-size: 1.6em;
+    font-weight: bold;
+    position: absolute;
+    color: white;
+
+    top: 480px;
+    left: 208px;
+}
+
+.texto p{
+    margin-top: 20px;
+}
+
+.logincpf{
+    width: 300px;
+    height: 290px;
+    top: 445px;
+    left: 1385px;
+    position: absolute;
+    
+    background-color: white;
+    border-radius: 20px;
+    
+}
+.logincpf > h1{
+    
+    margin: 10px;
+    font-size: 1.5em;
+    text-align: justify;
+}
+
+.video{
+    margin-top: 0px;
+}
+.conteiner2{
+    padding: 300px;
+    padding-bottom: 500px;
+    background-color: white;
+}
+.texto2{
+    
+    float: left;
+    text-indent: 0;
+
+    text-align: justify;
+    font-weight: bold;
+    font-size: 1.5em;
+
+   
+}
+.saibamais{
+    color: #820AD1;
+    text-decoration: none;
+    font-size: 0.8em;
+    
+    line-height: 3;
+
+   
+}
+span{
+    color: #820AD1;
+}
+.cartoes1{
+    position: absolute;
+    top: 2250px;
+    left: 1200px;
+    
+}
+
+.conteiner3{
+    
+    padding: 300px;
+    padding-bottom: 1500px;
+    background-color: #F5F5F5;
+}    
+.texto3{
+    float: left;
+    text-indent: 0;
+
+    text-align: justify;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+.cartao2{
+    
+    position: absolute;
+    top: 2944px;
+    left: 1060px;
+    
+    width: 800px;
+    height: 450px;
+}
+.texto4{
+    margin-top: 500px;
+    
+    clear: left;
+    float: left;
+    
+    text-indent: 0;
+    text-align: justify;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+.celular{
+    position: absolute;
+    top: 3800px;
+    left: 1200px;
+}
+
+.conteiner4{
+    background-image: url(image/imgPessoa.jpg);
+    background-repeat: no-repeat;
+    min-height: 1000px;
+}
+ .texto5{
+    font-size: 1.2em;
+    font-weight: bold;
+    color: white;
+    
+    position: absolute;
+    top: 5090px;
+    left: 300px;
+   
+
+   
+    
+   
+   
+
+    
+} 
+.txtextra{
+    color: white;
+    text-decoration: none;
+    font-size: 1em;
+    
+    line-height: 3;
+
+  
+}
+
+main a:hover{
+    text-decoration: underline;
+   
+}
+
+footer{
+   
+    background-color: #111111;
+    height: 1400px;
+}
+
+
+li{
+    margin-top: 15px;
+}
+footer a{
+   
+   
+    
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    
+    /* position: relative;
+    top: 75px;
+    left: 83px; */
+
+    
+    
+    
+}
+footer a:hover{
+    color:#820AD1;
+
+}
+.bloco1{
+    
+
+    font-size: 1.1em;
+    position: relative;
+    top: 75px;
+    left: 83px;
+    float: left;
+}
+.t1{
+    position: relative;
+    margin-bottom: 30px;
+    
+    font-weight:lighter;
+    color: white;
+}
+
+.bloco2{
+    font-size: 1.1em;
+    position: relative;
+    top: 75px;
+    left: 300px;
+    float: left;
+}
+.t2{
+    margin-bottom: 30px;
+    position: relative;
+    
+    font-weight:lighter;
+    color: white;
+}
+
+.bloco3{
+    font-size: 1.1em;
+    position: relative;
+    top: 75px;
+    left: 630px;
+    float: left;
+}
+.t3{
+    margin-bottom: 30px;
+    position: relative;
+    
+    font-weight:lighter;
+    color: white;
+}
+
+.bloco4{
+    font-size: 1.1em;
+    position: relative;
+    top: 75px;
+    left: 900px;
+    float: left;
+}
+.t4{
+    margin-bottom: 30px;
+    position: relative;
+    
+    font-weight:lighter;
+    color: white;
+}
+
+.bloco5{
+    
+    clear: left;
+    font-size: 1.1em;
+    position: relative;
+    top: 200px;
+    left: 83px;
+    float: left;
+}
+.t5{
+    position: relative;
+    margin-bottom: 30px;
+    
+    font-weight:lighter;
+    color: white;
+}
+
+.bloco6{
+    font-size: 1.1em;
+    position: relative;
+    top: 200px;
+    left: 287px;
+    float: left;
+}
+.t6{
+    margin-bottom: 30px;
+    position: relative;
+    
+    font-weight:lighter;
+    color: white;
+}
+
+.bloco7{
+    font-size: 1.1em;
+    position: relative;
+    top: 200px;
+    left: 462px;
+    float: left;
+}
+.t7{
+    margin-bottom: 30px;
+    position: relative;
+    
+    font-weight:lighter;
+    color: white;
+}
+
+.bloco8{
+    font-size: 1.1em;
+    position: relative;
+    top: 200px;
+    left: 625px;
+    float: left;
+
+    
+}
+.t8{
+    margin-bottom: 30px;
+    position: relative;
+    
+    font-weight:lighter;
+    color: white;
+}
+
+.apple{
+    margin-left:-18px;
+
+    width: 150px;
+    height: 52px;
+}
+.gplay{    
+    margin-left: -18px;
+
+    width: 160px;
+    height: 70px;
+}
+.bloco9{
+    /* border-width: 50px;
+    border-top:2px solid #3a3a3a42;
+    border-bottom:2px solid #3a3a3a42;
+    
+    margin: auto;
+    padding-bottom: 150px; */
+    margin-top: 50px;
+
+    position: relative;
+    top: 1000px;
+    left: -450px;
+   
+}
+.linha{
+   
+    background-color: rgba(112, 112, 112, 0.192);
+    height: 1px;
+    
+    position: relative;
+    top: 1000px;
+   
+} 
+.linha2{
+    background-color: rgba(112, 112, 112, 0.192);
+    height: 1px;
+    
+    position: relative;
+    top: 1065px;
+
+}
+.nufooter{
+    
+    position: relative;
+    top: 35px;
+    left: -105px;
+}
+.txt9{
+    
+    color: white;
+
+} 
+
+.linksimg{
+    position: relative;
+    left: 1500px;
+    top: -20px;
+
+    
+}
+.sociais{
+    padding-right:20px ;
+
+}
